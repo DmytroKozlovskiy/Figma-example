@@ -46,7 +46,7 @@ header {
 
     .transparent {
       background: transparent;
-      border: 1px solid #bcd0e5 
+      border: 1px solid #bcd0e5;
       color: #bcd0e5;
       padding-block: 10px;
     }
