@@ -63,7 +63,48 @@ header {
       line-height: 123%;
       color: var(--text-color);
     }
-
-    p {}
   }
+}
+
+.tools {
+  text-align: center;
+}
+
+.design-tools ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+
+  nav {
+    display: flex;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      width: 325px;
+      height: 48px;
+      margin-block: 20px;
+    }
+
+    button {
+      width: 131px;
+      height: 39px;
+    }
+  }
+
+
+
+
 }
