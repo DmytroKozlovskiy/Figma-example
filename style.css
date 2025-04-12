@@ -35,6 +35,7 @@ body {
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   ul {
     display: flex;
@@ -43,6 +44,7 @@ header {
 
   .buttons {
     display: flex;
+    gap: 10px;
 
     .transparent {
       background: transparent;
